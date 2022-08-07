@@ -1,0 +1,102 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f2f2f;
+}
+
+.div-global{
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+a {
+  text-decoration: none;
+  
+}
+.box-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.box-menu a {
+  color: white;
+  display: inline-block;
+  padding: 10px 3px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.lista-fornecedor{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.grid-info-collapse__image{
+  width: 10px 10px;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%; 
+}
+
+.footer-b{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  height: 50px;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.pepsico,.cocacola{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.Coca-Cola{
+  padding: 30px 10px;
+}
+
+.lz-cocacola{
+  height: 150px;
+  padding: 10px 30px;
+  align-items: flex-end;
+}
+
+.PepsiCo {
+  fill: white;
+  width: 150px;
+  padding: 10px 0px;
+  margin-left: 10px;
+}
+
+.ls-is-cached, .lazyloaded{
+  width: 150px; 
+  height: 150px;
+}
+
