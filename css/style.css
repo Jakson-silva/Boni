@@ -9,6 +9,7 @@ body {
   background: #2f2f2f;
 }
 
+
 .div-global{
   background: black;
   display: flex;
@@ -22,6 +23,7 @@ body {
   margin-left: auto;
   margin-top: auto;
 }
+
 
 a {
   text-decoration: none;
@@ -80,6 +82,7 @@ a {
 
 .Coca-Cola{
   padding: 30px 10px;
+  margin-left: 100px;
 }
 
 .lz-cocacola{
@@ -92,7 +95,7 @@ a {
   fill: white;
   width: 150px;
   padding: 10px 0px;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 .ls-is-cached, .lazyloaded{
